@@ -1,24 +1,23 @@
-#About
+# About
 This is a Java Spring boot project designed to meet the following requirements.
 
-#Description
+# Description
 Project to compute the average price and total price of all products that match the rules of a catalog from a salesman.
 
-#Problem
-A salesman is selling a set of products. Each product is described by a set of attributes, such as name, type, color, cost and weight, each of which may have a different data type (String, Boolean, Number). 
+# Problem
 
 A company is looking to buy products at the best possible prices, and which best match it’s needs. It has many different products it is looking to purchase. It defines the products it wishes to buy with a set of rules. Each rule is defined by a set of conditions, and a score for if that rule matches. Each condition is made up of an attribute name, a value, and a comparison operator. Some rules might be negative, meaning that if the rule matches, the scoring should be negative. A rule might look like:
 
       color == BLUE && price < 17.75 && quantity > 750, 100
 
-The company realizes that it is very time consuming and error prone to sort through the salesman’s goods and is looking to implement a system that will:
-##Functionality
+
+### Functionality
 a)	Score all of the salesman’s products on how well they match their product definitions by calculating the sum of the rule scores, which is the percentage of conditions which match, multiplied by the score.
 b)	Filter the potential products to just those that pass a given threshold (assume 50% as the cutoff).
 c)	Calculate the total and average prices for all the products that score sufficiently highly.
 
 
-#Assumptions
+# Assumptions
 - Product Property types will be defined by each individual condition. 
 - Condition property types will be determined by attempting to parse into the 3 types in the following order: Number, Boolean, String.
 - Properties can only use comparable or a combination excluding >< (>, < ==, <=, >=). The properties will be compared to the products using the types comparable operator.  
@@ -42,11 +41,11 @@ c)	Calculate the total and average prices for all the products that score suffic
 - Java JDK 8
 - Gradle 6.3 (or use ./gradlew to use a prepackaged gradle distribution)
 
-##Executing
+## Executing
 gradle clean bootRun
  
-##Errors
-###Catalog Parse Error Codes
+## Errors
+### Catalog Parse Error Codes
 - 1 - There are not 4 columns provided for a product.
 - 2 - Could not create a product due to missing mandatory fields (id, name, price, attributes), or if they have an invalid type.
 - 3 - Attribute name or values are not alphanumeric
@@ -76,5 +75,5 @@ id >=  ,1000
 ```
 
 
-#Unit Tests
+## Unit Tests
 Todo
