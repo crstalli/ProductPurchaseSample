@@ -1,0 +1,11 @@
+id|name|price|attributes
+1001|Charmin_Ultra_Soft|29.99|Count=8,Scented=FALSE,Brand=Charmin,Type=Two_Ply,Size=Mega,Color=White,isToiletPaper=TRUE,inStock=FALSE
+1008|Cottonelle_Ultra_Comform|100|Count=12,Scented=TRUE,Brand=Cottonelle,Type=One_Ply,Size=Mega,Color=Pink,isToiletPaper=TRUE,inStock=FALSE
+1015|Charmin_Essentials|9.99|Count=24,Scented=FALSE,Brand=Charmin,Type=Two_Ply,Size=Regular,Color=White,isToiletPaper=TRUE,inStock=FALSE
+1022|Scott_Comfort_Plus|13.99|Count=36,Scented=TRUE,Brand=Scott,Type=One_Ply,Size=Mega,Color=White,isToiletPaper=TRUE,inStock=FALSE
+1029|Cottonelle_Clean_Care|21.49|Count=12,Scented=TRUE,Brand=Cottonelle,Type=Two_Ply,Size=Regular,Color=Blue,isToiletPaper=TRUE,inStock=FALSE
+1036|Charmin_Ultra_Strong|59.99|Count=8,Scented=FALSE,Brand=Charmin,Type=Three_Ply,Size=Super_Mega,Color=White,isToiletPaper=TRUE,inStock=FALSE
+1043|Amazon_Presto|89.99|Count=48,Scented=FALSE,Brand=Amazon,Type=One_Ply,Size=Regular,Color=Blue,isToiletPaper=TRUE,inStock=TRUE
+1050|Quilted_Northern_Ultra_Plush|129.99|Count=24,Scented=TRUE,Brand=Quilted_Northern,Type=Three_Ply,Size=Super_Mega,Color=Pink,isToiletPaper=TRUE,inStock=FALSE
+1057|Scott_1000|3.99|Count=12,Scented=TRUE,Brand=Scott,Type=One_Ply,Size=Tiny,Color=White,inStock=TRUE
+1064|Charmin_Ultra_Gentle|299.99|Count=48,Scented=FALSE,Brand=Charmin,Type=TwoPly,Size=Mega,Color=White,isToiletPaper=TRUE,inStock=FALSE
